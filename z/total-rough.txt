@@ -1,0 +1,34 @@
+yarn init 
+
+Directory structure (MVC pattern - Model View controller )
+
+    - public (all public resources)
+        - css
+            -- app.css
+        - img
+
+        - js
+            -- app.js
+
+    - app (all-logical parts)
+        - config (all configurations) 
+        - http (requested related all files, ex: comtrollers, middlewares)
+            - controllers
+            - middlewares
+        - models ( all models/database schemas )
+    
+    - resources (all views/templates + all SASS files - uncompiled + all uncompiled JavaScript Files)
+        - js (uncompiled)
+            -- app.js
+        - scss (uncompiled)
+            -- app.scss
+        - views (all templates)
+
+    - routes (all routes/urls)
+        -- api.js
+        -- web.js
+
+--------------------------------- Basic skeleton Ready ----------------------------
+
+
+

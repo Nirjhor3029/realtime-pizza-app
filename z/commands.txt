@@ -1,0 +1,3 @@
+[.] package.json- setup
+    - yarn init / yarn init -y / npm init / npm init -y (-y = "yes")
+
