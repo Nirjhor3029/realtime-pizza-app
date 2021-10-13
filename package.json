@@ -1,0 +1,8 @@
+{
+  "name": "realtime-pizza-app",
+  "version": "1.0.0",
+  "description": "This is my realtime-pizza app, by this I'm learning websocket and many more",
+  "main": "index.js",
+  "author": "Nirjhor",
+  "license": "MIT"
+}
