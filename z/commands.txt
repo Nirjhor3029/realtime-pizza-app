@@ -7,5 +7,15 @@
     #we can install multiple dependencies 
     - yarn add ejs express-ejs-layouts
 * dev-dependencies
-    - yarn add nodemon -D / npm install nodemon -D
+    - yarn add nodemon -D / npm install nodemon --save-dev
 
+    #by this we can compile JS module/SASS or anything basically we can use webpack but laravel-mix used webpack with 0 configure
+    - yarn add laravel-mix -D / npm install laravel-mix --save-dev
+
+
+* Laravel-mix
+    - touch webpack.mix.js  (https://laravel-mix.com/docs/6.0/installation#stand-alone-projects)
+    - npx mix
+    - npx mix watch (watch means run this command on every save)
+
+    
