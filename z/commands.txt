@@ -1,3 +1,11 @@
 [.] package.json- setup
     - yarn init / yarn init -y / npm init / npm init -y (-y = "yes")
 
+[.] install dependencies
+* dependencies
+    - yarn add express / npm install express
+    #we can install multiple dependencies 
+    - yarn add ejs express-ejs-layouts
+* dev-dependencies
+    - yarn add nodemon -D / npm install nodemon -D
+

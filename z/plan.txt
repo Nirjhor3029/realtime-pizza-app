@@ -1,12 +1,13 @@
-[.] Create directory structure.
-[.] Create a NPM project and install all dependencies
-    - Depoendancies
+[+] Create directory structure.
+[+] Create a NPM project and install all dependencies
+    - Dependancies
         - express
-        - ejs (express-ejs-layouts)
+        - ejs 
+        - express-ejs-layouts
     - Dev dependencies
         - nodemon
 
-[.] Create express server - Create a server.js file
+[+] Create express server - Create a server.js file
 
 [.] Create Home page using Html and Css
     - include tailwind Css

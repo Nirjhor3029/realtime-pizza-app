@@ -1,6 +1,8 @@
 yarn init 
 
-Directory structure (MVC pattern - Model View controller )
+Directory structure (MVC pattern - Model View controller )  
+#we can also auto generate the express directory structure /skeleton  by 2 commands 
+#(https://expressjs.com/en/starter/generator.html)
 
     - public (all public resources)
         - css
@@ -28,7 +30,38 @@ Directory structure (MVC pattern - Model View controller )
         -- api.js
         -- web.js
 
+    -- server.js (into project-root folder)
+
 --------------------------------- Basic skeleton Ready ----------------------------
 
+================= Create a NPM project and install all dependencies ===============
+
+* dependencies 
+
+yarn add express / npm install express
+
+#we can install multiple dependencies 
+yarn add ejs express-ejs-layouts
+
+#we got thi in package.json
+#"dependencies": {
+#    "ejs": "^3.1.6",
+#    "express": "^4.17.1",
+#    "express-ejs-layouts": "^2.5.1"
+#}
+
+* dev dependencies 
+#dev dependencies only for developers. 
+
+#nodemon works like live-server
+yarn add nodemon -D / npm install nodemon -D
+
+====================================================== Setup Done ================= Let's code
+[1] Server Create
+[2] Route Setup
+[3] set template engine (ejs & express-ejs-layouts => app.use())
+    # Set/change default values of predefined (default ex: root/views  But our dir is ex: root/resources/views)
+    (a) app.set('views',path.join(__dirname,'/resources/views'));
+    (b) app.set('view engine',"ejs");
 
 
