@@ -63,5 +63,24 @@ yarn add nodemon -D / npm install nodemon -D
     # Set/change default values of predefined (default ex: root/views  But our dir is ex: root/resources/views)
     (a) app.set('views',path.join(__dirname,'/resources/views'));
     (b) app.set('view engine',"ejs");
+    #assets
+    (c) app.use(express.static('public')); #it makes public folder default assets folder
+
+[4] assets setup:
+
+    (a) Laravel-Mix 
+    (b) tailwindcss
+        - yarn add tailwindcss -D
+        #add Package.json
+        "scripts": {
+            "build-tailwindcss": "tailwind -i ./resources/css/tailwind.css -o ./public/css/tailwind.css -w"
+        }
+        #Run
+        - yarn build-tailwindcss
+
+        # connect in home.ejs
+        <link rel="stylesheet" href="/css/tailwind.css" />
+------------------------------
+
 
 

@@ -18,4 +18,6 @@
     - npx mix
     - npx mix watch (watch means run this command on every save)
 
-    
+* Setup Tailwind
+    - yarn add tailwindcss -D / npm install -D tailwindcss
+    -

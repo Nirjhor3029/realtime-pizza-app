@@ -15,6 +15,9 @@ const path = require('path');
 const PORT = process.env.PORT || 3300;
 const pathOfViews = path.join(__dirname,'/resources/views');
 
+//assets
+app.use(express.static('public'));
+
 // Routes
 app.get('/',(req,res)=>{
     // res.send("<h1>Hello from Server</h1>");
@@ -30,6 +33,7 @@ app.set('view engine',"ejs");
 
 // Server listen
 app.listen(PORT,()=>{
-    console.log(`Listening on port: ${PORT} :\n path is: ${pathOfViews}`);
-    console.log(app.get('views'));
+    console.log(`Listening on port: ${PORT}`);
+    // console.log(`path is: ${pathOfViews}`);
+    // console.log(app.get('views'));
 })
